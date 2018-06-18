@@ -23,6 +23,26 @@
       ReactDOM.render(
         <Greeting />, document.getElementById('app')
       );
+
+      class Purpose extends React.Component {
+        render(){
+          return (
+            <div className="purpose">
+              <h3>The purpose of this exercise is to:</h3>
+              <ul>
+                <li>Gain a basic understanding of React</li>
+                <li>Expand current JavaScript skills</li>
+                <li>Prepare for capstone project</li>
+              </ul>
+            </div>
+          );
+        }
+      }
+
+      ReactDOM.render(
+        <Purpose />, document.getElementById('app')
+      );
+
     </script>
   </body>
 </html>
